@@ -36,7 +36,6 @@ a,
     text-decoration: none;
     cursor: pointer;
     color: var(--link-color);
-
 }
 
 a:hover,
@@ -128,6 +127,10 @@ a:hover,
     flex-direction: column;
 }
 
+.first-information {
+    flex-direction: column;
+}
+
 .edit-profile-button {
     display: flex;
     justify-content: center;
@@ -151,8 +154,6 @@ a:hover,
     height: 3rem;
     object-fit: contain;
 }
-
-
 
 .name-and-pronouns {
     display: flex;
